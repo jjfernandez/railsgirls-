@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20160319184910) do
     t.string   "name"
     t.string   "description"
     t.string   "picture"
+    t.date     "visit"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
